@@ -4,3 +4,14 @@ i.blogger.b.icon{
 #newPostHeader{
     margin-top: 7.0em;
 }
+#delete{
+    display: inline;
+}
+
+#showPadding{
+    padding-bottom: 10px;
+}
+
+#indexPadding{
+    margin-top: 100px;
+}

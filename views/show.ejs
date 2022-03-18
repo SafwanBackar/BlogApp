@@ -11,11 +11,15 @@
                         <%= blog.created.toDateString() %>
                     </span>
                 </div>
-                <div class="description">
+                <div id="showPadding" class="description">
                     <p>
                         <%- blog.body %>
                     </p>
                 </div>
+                <a class="ui green button" href="/blogs/<%= blog._id %>/edit">Edit</a>
+                <form id="delete" action="/blogs/<%= blog._id %>?_method=DELETE" method="post">
+                    <button class="ui red button">Delete</button>
+                </form>
             </div>
         </div>
 
