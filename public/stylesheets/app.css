@@ -15,3 +15,11 @@ i.blogger.b.icon{
 #indexPadding{
     margin-top: 100px;
 }
+
+.ui.centered.round.image{
+    padding-bottom: 30px;
+}
+
+.content{
+    padding-top: 30px;
+}
